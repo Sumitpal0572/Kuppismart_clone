@@ -16,7 +16,7 @@ export default function HeroSection() {
             efficiency, and build a greener tomorrow.
           </p>
 
-          <button className="mt-6 px-6 py-3 bg-green-700 text-white rounded-md shadow hover:bg-green-800 transition">
+          <button className="mt-6 px-6 py-3 bg-green-600 text-white rounded-md shadow hover:bg-green-400 transition">
             📞 Contact Us
           </button>
         </div>
