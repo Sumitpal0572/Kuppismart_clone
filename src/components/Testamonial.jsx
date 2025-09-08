@@ -11,7 +11,7 @@ const testimonials = [
     name: "Ramulu",
     role: "Layer Poultry Farm, Telangana",
     text: "Kuppismart has been a game-changer for my poultry farm. Not only did it help me save on feed costs and reduce mortality, but it also gave me peace of mind knowing that my birds are in safe hands.",
-    img: "https://res.cloudinary.com/dt8emxboh/image/upload/v1728537118/hx43ypgfcns3emo2t61h.jpg",
+    img: "https://res.cloudinary.com/dt8emxboh/image/upload/v1728537093/rnaslfy9dca1avasblfq.jpg",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Senthilvel",
     role: "Broiler Poultry Farm, Tamil Nadu",
     text: "I'm amazed at how Kuppismart has improved the efficiency of my broiler farms. The automation features have saved me time and money, while the data insights have helped me optimize feed management and reduce waste.",
-    img: "https://res.cloudinary.com/dt8emxboh/image/upload/v1728537093/rnaslfy9dca1avasblfq.jpg",
+    img: "https://res.cloudinary.com/dt8emxboh/image/upload/v1728537118/hx43ypgfcns3emo2t61h.jpg",
   },
 ];
 
@@ -45,7 +45,7 @@ const Testimonials = () => {
         {/* Button */}
         <div className="mt-6">
           <button className="bg-green-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition">
-            Contact Us
+            📞 Contact Us
           </button>
         </div>
 
@@ -55,7 +55,11 @@ const Testimonials = () => {
             modules={[Autoplay, Pagination]}
             spaceBetween={30}
             slidesPerView={1}
-            autoplay={{ delay: 3000 }}
+            loop={true} // ✅ Infinite loop
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false, // ✅ keeps autoplay even after interaction
+            }}
             pagination={{ clickable: true }}
             breakpoints={{
               640: { slidesPerView: 1 },
