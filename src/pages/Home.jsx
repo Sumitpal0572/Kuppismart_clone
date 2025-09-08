@@ -1,3 +1,4 @@
+import FAQ from "../components/Faq";
 import GoalsGrid from "../components/GoalsGrid";
 import HeroSection from "../components/HeroSection";
 import ImpactSection from "../components/ImpactSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <Sustainability />
       <GoalsGrid />
       <Testimonials />
+      <FAQ />
     </>
   );
 }
