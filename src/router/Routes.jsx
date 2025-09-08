@@ -5,7 +5,7 @@ import Shop from "../pages/Shop";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Copyright";
 
 export default function AppRoutes() {
   return (
@@ -18,7 +18,6 @@ export default function AppRoutes() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

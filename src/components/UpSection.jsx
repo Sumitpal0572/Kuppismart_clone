@@ -29,11 +29,7 @@ export default function UspSection() {
         <h2 className="text-3xl font-bold text-gray-800">
           Custom IoT Solutions for Your Business
         </h2>
-        <img
-          className="flex items-center justify-between"
-          src="https://res.cloudinary.com/dt8emxboh/image/upload/v1745481390/d3kqsex1ajnbsp5km0w3.png"
-          alt=""
-        />
+      
         <p className="mt-2 text-xl font-semibold text-gray-700">
           Unique Selling Points (USP)
         </p>
