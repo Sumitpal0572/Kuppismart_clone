@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import ImpactSection from "../components/ImpactSection";
 import SolutionsSection from "../components/SolutionsSection";
 import Sustainability from "../components/Sustanlibility";
+import Testimonials from "../components/Testamonial";
 import UspSection from "../components/UpSection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <UspSection />
       <Sustainability />
       <GoalsGrid />
+      <Testimonials />
     </>
   );
 }
