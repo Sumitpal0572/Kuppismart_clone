@@ -1,6 +1,7 @@
 import HeroSection from "../components/HeroSection";
 import ImpactSection from "../components/ImpactSection";
 import SolutionsSection from "../components/SolutionsSection";
+import Sustainability from "../components/Sustanlibility";
 import UspSection from "../components/UpSection";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <ImpactSection />
       <SolutionsSection />
       <UspSection />
+      <Sustainability />
     </>
   );
 }
