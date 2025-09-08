@@ -1,3 +1,4 @@
+import Info from "../components/Info";
 import FAQ from "../components/Faq";
 import GoalsGrid from "../components/GoalsGrid";
 import HeroSection from "../components/HeroSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <GoalsGrid />
       <Testimonials />
       <FAQ />
+      <Info />
     </>
   );
 }
