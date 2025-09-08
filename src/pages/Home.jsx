@@ -7,6 +7,7 @@ import SolutionsSection from "../components/SolutionsSection";
 import Sustainability from "../components/Sustanlibility";
 import Testimonials from "../components/Testamonial";
 import UspSection from "../components/UpSection";
+import Copyright from "../components/Copyright";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <Info />
+      <Copyright />
     </>
   );
 }
