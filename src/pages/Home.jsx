@@ -1,3 +1,4 @@
+import GoalsGrid from "../components/GoalsGrid";
 import HeroSection from "../components/HeroSection";
 import ImpactSection from "../components/ImpactSection";
 import SolutionsSection from "../components/SolutionsSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <SolutionsSection />
       <UspSection />
       <Sustainability />
+      <GoalsGrid />
     </>
   );
 }
